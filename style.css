@@ -45,6 +45,16 @@ font-weight: 700;
     font-weight: 600;
     margin-top: 32px;
 }
+.btn-secondary{
+    border-radius: 5px;
+    background: white;
+    padding: 20px 35px;
+    border: none;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 32px;
+}
 
 /* main area style */
 main{
@@ -57,6 +67,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 130px;
+    margin-top: 139px;
 }
 .failure-title{
     color: #151414;
@@ -65,10 +76,11 @@ main{
     }
     .failure-desc{
         margin-top: 24px;
-    color:#444343;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
+        color:#444343;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 70%;
     }
     .failure-item{
         margin-top: 16px;
@@ -79,4 +91,88 @@ main{
     }
     .failure-item li{
         list-style: none;
+    }
+  
+    /* my plan style */
+    .plan-heading{
+        text-align: center;
+        margin-top: 120px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .plan-container{
+        display: flex;
+        margin-top: 50px;
+        gap: 100px;
+    }
+    .plan-content {
+        text-align: center;
+    }
+    .plan-title{
+        color:#151414;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+    .plan-desc{
+        margin-top: 16px;
+        color: #737272;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    /* mindset area */
+    .mindset-area{
+        margin-top: 130px;
+        padding: 60px 600px 60px 140px ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('images/watch.png');
+    }
+    .mindset-title{
+        color: #FFF;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    /* footer area style */
+    footer{
+       
+        background-color: black;
+        
+    }
+    .footer-container{
+        margin: 120px auto 0px auto;
+        max-width: 1200px;
+        display: flex;
+        gap: 330px;
+        padding: 140px;
+    }
+
+    .footer-title{
+        color: #F8F8F8;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .footer-desc{
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .social-links a{
+        margin-right: 16px;
+    }
+    .email{
+        background-color: black;
+        border: 1px solid white;
+        border-radius: 10px;
+        padding: 30px 60px;
+        font-size: 20px;
+        margin-top: 31px;
+        color: white;
     }
